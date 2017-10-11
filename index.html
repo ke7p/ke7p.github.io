@@ -1,157 +1,80 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Dirt Divers Mining Co.</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body class="w3-content" style="max-width:1300px">
+<body>
 
-<!-- First Grid: Logo & About -->
-<div class="w3-row">
-  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
-    <div class="w3-padding-64">
-      <h1>My Logo</h1>
-    </div>
-    <div class="w3-padding-64">
-      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a>
-      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">My Work</a>
-      <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Resume</a>
-      <a href="#contact" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contact</a>
-    </div>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+  <img class="href" src="https://www.thousandwonders.net/covers/d5/Naica.Mine.jpg" alt="MexicanMine" width="1500" height="600">
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-black w3-center">
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">DIRT DIVERS</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">DIRT DIVERS</h5>
+    <h3 class="w3-hide-medium w3-hide-small">Mining Co.</h3>
   </div>
-  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
-    <div class="w3-padding-64 w3-center">
-      <h1>About Me</h1>
-      <img src="/w3images/avatar3.png" class="w3-margin w3-circle" alt="Person" style="width:50%">
-      <div class="w3-left-align w3-padding-large">
-        <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-        <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      </div>
-    </div>
+  
+  <!-- Navbar (placed at the bottom of the header image) -->
+  <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
+    <a href="#" class="w3-bar-item w3-button">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button">Specimens</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
   </div>
+</header>
+
+<!-- Navbar on small screens -->
+<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+<div class="w3-bar w3-light-grey">
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="#portfolio" class="w3-bar-item w3-button">Specimens</a>
+  <a href="#contact" class="w3-bar-item w3-button">Contact</a>
 </div>
-
-<!-- Second Grid: Work & Resume -->
-<div class="w3-row">
-  <div class="w3-half w3-light-grey w3-center" style="min-height:800px" id="work">
-    <div class="w3-padding-64">
-      <h2>My Work</h2>
-      <p>Some of my latest projects.</p>
-    </div>
-    <div class="w3-row">
-      <div class="w3-half">
-        <img src="/w3images/coffee.jpg" style="width:100%">
-      </div>
-      <div class="w3-half">
-        <img src="/w3images/workbench.jpg" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-row w3-hide-small">
-      <div class="w3-half">
-        <img src="/w3images/workbench.jpg" style="width:100%">
-      </div>
-      <div class="w3-half">
-        <img src="/w3images/coffee.jpg" style="width:100%">
-      </div>
-    </div>
-
-    <div class="w3-row w3-hide-small">
-      <div class="w3-half">
-        <img src="/w3images/sound.jpg" style="width:100%">
-      </div>
-      <div class="w3-half">
-        <img src="/w3images/workbench.jpg" style="width:100%">
-      </div>
-    </div><br>
-    <p>Just call me awesome.</p>
-  </div>
-  <div class="w3-half w3-indigo w3-container" style="min-height:800px">
-    <div class="w3-padding-64 w3-center">
-      <h2>Resume</h2>
-      <p>A draft from my CV</p>
-      <div class="w3-container w3-responsive">
-        <table class="w3-table">
-          <tr>
-            <th>Year</th>
-            <th>Title</th>
-            <th>Where</th>
-          </tr>
-          <tr class="w3-white">
-            <td>2012-2016</td>
-            <td>The rest is history..</td>
-            <td>Lorem ipsum</td>
-          </tr>
-          <tr>
-            <td>2009-2012</td>
-            <td>Started my own company</td>
-            <td>My Garage</td>
-          </tr>
-          <tr class="w3-white">
-            <td>2008-2009</td>
-            <td>Started working for Lorem</td>
-            <td>London, UK</td>
-          </tr>
-          <tr>
-            <td>2005-2008</td>
-            <td>Degree in Bachelor of Design</td>
-            <td>Harvard, USA</td>
-          </tr>
-          <tr class="w3-white">
-            <td>2002-2005</td>
-            <td>Degree in Bachelor of Business</td>
-            <td>RMIT University, Melbourne, Australia</td>
-          </tr>
-          <tr class="w3-hide-medium">
-            <td>2002-2005</td>
-            <td>Degree in Bachelor of Business</td>
-            <td>RMIT University, Melbourne, Australia</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-  </div>
 </div>
+<!-- Page content -->
+<div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
 
-<!-- Third Grid: Swing By & Contact -->
-<div class="w3-row" id="contact">
-  <div class="w3-half w3-dark-grey w3-container w3-center" style="height:700px">
-    <div class="w3-padding-64">
-      <h1>Swing By</h1>
-    </div>
-    <div class="w3-padding-64">
-      <p>..for a cup of coffee, or whatever.</p>
-      <p>Chicago, US</p>
-      <p>+00 1515151515</p>
-      <p>test@test.com</p>
-    </div>
+  <!-- Images (Portfolio) -->
+  <img class="href" src="https://ae01.alicdn.com/kf/HTB1c51VKXXXXXa0XVXXq6xXFXXXp/100g-100-Natural-Clear-Quartz-Crystal-Points-Raw-Material-Unpolished-Specimens-Reiki-Healing-25-65mm.jpg_640x640.jpg" alt="QuartzHandful" class="w3-image" width="1000" height="500">
+  <img class="href" src="https://jaysanalysis.files.wordpress.com/2014/11/amazing-beautiful-blue-crystal-crystals-glitter-favim-com-44535.jpg" alt="SpaceCrystal" class="w3-image w3-margin-top" width="1000" height="500">
+  <img class="href" src="https://i.pinimg.com/originals/70/7b/ff/707bfffc9805aab8ae592185c8e53699.jpg" alt="RainbowCluster" class="w3-image w3-margin-top" width="1000" height="500">
+  <img class="href" src="https://www.fossilera.com/sp/161570/amethyst-geodes/quartz-var-amethyst.jpg" alt="AmethystGeode" class="w3-image w3-margin-top" width="1000" height="500">
+  <img class="href" src="https://blog.freepeople.com/wp-content/uploads/2012/10/IMG_0013.jpg" alt="3Crystals" class="w3-image w3-margin-top" width="1000" height="500">
+
+  <!-- Contact -->
+  <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
+    <h3 class="w3-center">Contact</h3>
+    <hr>
+    <p>Dirt Divers Mining Co. has been consciously hand mining minerals and gemstones in Colorado for the better part of two decades. They does not incorporate any machinery or use any chemicals to clean their stones. They work with the BLM and USFS to keep the forrest, animals and vegetation safe for future generations to enjoy.</p>
+    
+    <h4> <u>Jay Hill<u> </h4>
+    
+    <p> Owner/Miner/Rock Cutter and Cleaner </p>
+    
+    <h4> <u>Pickles</u> </h4>
+    
+    <p> Moose/ELk Scount and Bear guard/security </p>
+
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" required name="Name">
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" required name="Email">
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" required name="Message">
+      </div>
+      <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
+    </form><br>
+  
   </div>
-  <div class="w3-half w3-teal w3-container" style="height:700px">
-    <div class="w3-padding-64 w3-padding-large">
-      <h1>Contact</h1>
-      <p class="w3-opacity">GET IN TOUCH</p>
-      <form class="w3-container w3-card-2 w3-padding-32 w3-white" action="/action_page.php" target="_blank">
-        <div class="w3-section">
-          <label>Name</label>
-          <input class="w3-input" style="width:100%;" type="text" required name="Name">
-        </div>
-        <div class="w3-section">
-          <label>Email</label>
-          <input class="w3-input" style="width:100%;" type="text" required name="Email">
-        </div>
-        <div class="w3-section">
-          <label>Message</label>
-          <input class="w3-input" style="width:100%;" type="text" required name="Message">
-        </div>
-        <button type="submit" class="w3-button w3-teal w3-right">Send</button>
-      </form>
-    </div>
-  </div>
+
+<!-- End page content -->
 </div>
-
-<!-- Footer -->
-<footer class="w3-container w3-black w3-padding-16">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
 
 </body>
 </html>
